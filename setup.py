@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from setuptools import setup
+from setuptools import find_packages, setup
 
 # run setup
 setup(
@@ -9,7 +9,7 @@ setup(
     license="MIT",
     description="General Python Utility Library",
     url="https://github.com/adalca/pystrum",
-    packages=["pystrum"],
+    packages=find_packages(),
     python_requires=">=3.6",
     classifiers=[
         "Intended Audience :: Science/Research",
